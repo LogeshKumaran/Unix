@@ -1,0 +1,84 @@
+Linux Kernel : Core of the OS - Manages hardware and tells how to interact with the system.
+Ubuntu - Debian(OS) based.
+Other Linux based OS's - 
+    Ubuntu. 
+    Fedora. 
+    Linux Mint. 
+    openSUSE. 
+    PCLinuxOS.
+    Debian. 
+    Mandriva. 
+    Sabayon/Gentoo.
+   -----------------------------------------------------------------------------------
+   Shell - Program to get commands from keyboard- Sends them to the OS.
+   bash - Bourne again shell
+   
+   
+   Commands - 
+   
+   echo -> prints 
+   date -> prints current date
+   whoami -> prints the user name
+   pwd -> current working directory - Print working directory 
+   
+   cd -> change directory  
+      cd . -> current directory
+      cd .. -> parent directory
+      cd ~ -> home directory
+      cd - -> previous directory
+      cd -> home directory
+      
+   ls -> list directories
+      ls -a ->  to show hidden files (starts with .)
+      ls -l -> detaileed view
+      ls -al -> union of above
+      ls -R -> recursive
+      ls -r -> reverse orde
+      ls -t -> sort by modification time
+  
+   touch -> to create empty files
+   file -> to find the type of the file
+   cat -> to read a file - can take multiple files too
+   less -> paged view 
+        q  -> quit
+        /<word> -> search for the word
+        
+   history -> all prev commands entered
+   
+   cp -> copy file to directory
+        cp a* /home/copydir 
+        cp -r sourcedir/ /home/desktop/targetdir
+        cp -i -> prompts if same file name exists
+   mv -> move - rename file
+        mv -b -> if same file name exists it creaates a new file with a ~
+   
+   mkdir -> make directories
+        mkdir -p <path> -> to create sub directories
+   
+   rm -> remove
+        rm -f -> delete without any restrictions
+        rm -i -> gives prompt
+        rm -r -> remove directory and subdirs
+        rmdir -> remove directory
+        
+   find 
+        find </dir> -name <filename>
+        find </dir> -type d -name <dirname> -> d for directory
+   help
+        help <command>
+   man - manual
+        man <command>
+   whatis
+        whatis <command>
+        
+    alias 
+        alias <variable>='<command>' -> variable can be used instead of the whole command
+        unalias <variable> -> delete the alias 
+    
+    exit -> exit from shell
+    logout -> logout current user
+    
+   
+   
+   
+   
